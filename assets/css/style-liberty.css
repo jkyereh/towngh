@@ -20482,8 +20482,11 @@ p.inner-page-para {
 }
 
 .img-area img {
+  height: 100vh;
+  object-fit: cover;
   width: 100%;
 }
+  
 
 .img-area:hover img {
   transform: scale(1.2);
